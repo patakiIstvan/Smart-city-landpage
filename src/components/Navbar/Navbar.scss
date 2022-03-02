@@ -3,4 +3,16 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+
+  .logo {
+    width: 43.6px;
+    height: 43.6px;
+    padding: 28.2px 0;
+  }
+
+  nav {
+    display: none;
+  }
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from '../../assets/svg/top-logo.svg'
 
 function Navbar() {
   return (
     <header className="section navbar">
-      <img src="" alt="" />
+      <img className="logo" src={logo} alt="" />
       <nav>
         <ul>
           <li><a href="https://verysmartcity.netlify.app">about</a></li>

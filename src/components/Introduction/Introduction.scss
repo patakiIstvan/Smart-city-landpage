@@ -1,1 +1,39 @@
-.introduction {}
+.introduction {
+
+  .container {
+    margin-top: 60px;
+
+    .title {
+      font-size: 34px;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 19px;
+    }
+
+    p {
+      font-size: 16px;
+      text-align: justify;
+      line-height: 22px;
+      color: $primaryColor;
+    }
+
+    img {
+      width: 195px;
+      height: 195px;
+      float: right;
+      margin: 0 0 25px 23px;
+    }
+
+    .more {
+      margin: 14px 0 15px;
+      text-align: right;
+    }
+
+    a {
+      margin-top: 14px;
+      margin-bottom: 15px;
+      color: $anchorColor;
+      text-decoration: underline;
+    }
+  }
+}
