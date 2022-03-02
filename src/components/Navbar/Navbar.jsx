@@ -6,7 +6,7 @@ function Navbar() {
       <img src="" alt="" />
       <nav>
         <ul>
-          <li><a href="https://smartcity.netlify.app"></a></li>
+          <li><a href="https://verysmartcity.netlify.app"></a></li>
         </ul>
       </nav>
       <img src="" alt="" />
