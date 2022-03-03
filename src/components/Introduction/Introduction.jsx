@@ -7,7 +7,7 @@ function Introduction() {
     <section className='section introduction'>
       <div className="container">
         <h2 className='title'>Introduction</h2>
-        <img src={earthImg} alt="An illustration about the earth" />
+        <div className="image__container"><img src={earthImg} alt="An illustration about the earth" /></div>
         <p>WCAG 2.0 success criteria are written as testable statements that are not technology-specific. Guidance about satisfying the success criteria in specific technologies, as well as general information about interpreting the success criteria, is provided in separate documents. See Web Content Accessibility Guidelines (WCAG) Overview for an introduction and links to WCAG technical and educational material. WCAG 2.0 succeeds Web Content Accessibility Guidelines 1.0 [WCAG10], which was published as a W3C Recommendation May 1999. Although it is possible to conform either to WCAG 1.0 or to WCAG 2.0 (or both)</p>
         <div className="more">
           <a href="https://verysmartcity.netlify.app">Tovább</a>
