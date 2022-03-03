@@ -9,3 +9,9 @@
 .section {
   padding: 0 5%;
 }
+
+@media screen and (min-width: $lSize) {
+  .section {
+    padding: 0 10%;
+  }
+}

@@ -27,9 +27,18 @@ function Footer() {
         <div className="right">
           <h3 className='title title2'>Contact form</h3>
           <form action="">
-            <input className='input-field' type="text" name="fullName" id="fullName" />
-            <input className='input-field' type="email" name="" id="" />
-            <textarea onKeyUp={charLeft} className='input-field long-input' name="txtmsg" id="txtmsg" maxlength="200"></textarea>
+            <div className='input-container'>
+              <input className='input-field' type="text" name="fullName" id="fullName" placeholder=" " />
+              <span className="floating-label">Name</span>
+            </div>
+            <div className='input-container'>
+              <input className='input-field' type="email" name="" id="" placeholder=" " />
+              <span className="floating-label">E-mail</span>
+            </div>
+            <div className='input-container'>
+              <textarea onKeyUp={charLeft} className='input-field long-input' name="txtmsg" id="txtmsg" maxlength="200" placeholder=" "></textarea>
+              <span className="floating-label">Message</span>
+            </div>
             <label className='char-left' htmlFor="txtmsg">{`maximium 200 karakter - ${200 - char} maradt`}</label>
             <button id='send'>SEND<img src={submitIcon} alt="submit icon" /></button>
           </form>

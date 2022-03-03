@@ -51,9 +51,12 @@
     }
   }
 
+  .input-container {
+    position: relative;
+  }
+
   .input-field {
     outline: none;
-    position: relative;
     width: 100%;
     margin-bottom: 30px;
     height: 50px;
@@ -64,24 +67,23 @@
     color: $white;
   }
 
-  // .input-field[type=text]::after {
-  //   content: "Name";
-  // }
-
-  .input-field::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    top: 0px;
-    left: 0px;
-    background-color: gray;
-    color: $white;
-    z-index: 80;
-  }
-
   .input-field:focus {
     border: 1px solid $anchorColor;
+  }
+
+  // Ezzel vért izzadtam (⓿_⓿)
+  .input-field:focus~.floating-label,
+  .input-field:not(:placeholder-shown)~.floating-label {
+    top: -40px;
+  }
+
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    padding: 16px 18px 12px;
+    left: 0;
+    top: 0px;
+    transition: 0.2s ease all;
   }
 
   .long-input {
@@ -126,7 +128,7 @@
     }
   }
 
-  @media screen and (min-width: $lSize) {
+  @media screen and (min-width: $mSize) {
     .container {
       flex-direction: row;
       gap: 126px;
