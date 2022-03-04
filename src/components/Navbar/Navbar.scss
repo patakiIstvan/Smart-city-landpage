@@ -13,17 +13,20 @@
     align-items: center;
   }
 
+  .logo {
+    cursor: pointer;
+  }
+
   .large-screen-nav {
     display: none;
 
-    // .large-screen-nav>ul {
-    //   height: 100%;
-    // }
 
     .link-container>li {
       height: 80px;
       position: relative;
-      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
     }
 
     .sub-choose:hover .ls-sublink-container {
@@ -41,6 +44,7 @@
       height: 160px;
       display: none;
       flex-direction: column;
+      cursor: pointer;
     }
 
     .ls-sublink-container li {
@@ -63,8 +67,6 @@
       padding: 0 29px;
       font-weight: 400;
       text-transform: uppercase;
-      height: 100%;
-      vertical-align: middle
     }
   }
 
