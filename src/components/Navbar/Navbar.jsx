@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../../assets/svg/top-logo2.svg'
 import menuIcon from '../../assets/svg/menu-icon.svg'
+import dropDownIcon from '../../assets/image/dropdown.png'
 
 function Navbar() {
   // usestates
@@ -17,7 +18,7 @@ function Navbar() {
         <nav className='large-screen-nav'>
           <ul className='link-container'>
             <li><a href="https://verysmartcity.netlify.app">about</a></li>
-            <li className='sub-choose'><a href="https://verysmartcity.netlify.app">services</a>
+            <li className='sub-choose'><a href="https://verysmartcity.netlify.app">services<img className="dropdown-icon" src={dropDownIcon} alt="Icon that shows that there is a submenu" /></a>
               <ul className='ls-sublink-container'>
                 <li><a href="https://verysmartcity.netlify.app">cms</a></li>
                 <li><a href="https://verysmartcity.netlify.app">portal</a></li>

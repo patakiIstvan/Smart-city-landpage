@@ -9,17 +9,17 @@ function Partners() {
       <h2 className="title">Our partners</h2>
       <div className="container">
         <div className="container__item">
-          <a href="https://verysmartcity.netlify.app">
+          <a target="_blank" rel="noreferrer" href="https://verysmartcity.netlify.app">
             <img className="css-logo" src={cssLogo} alt="logo of CSS3" />
           </a>
         </div>
         <div className="container__item">
-          <a href="https://verysmartcity.netlify.app">
+          <a target="_blank" rel="noreferrer" href="https://verysmartcity.netlify.app">
             <img className="html-logo" src={htmlLogo} alt="logo of HTML5" />
           </a>
         </div>
         <div className="container__item">
-          <a href="https://verysmartcity.netlify.app">
+          <a target="_blank" rel="noreferrer" href="https://verysmartcity.netlify.app">
             <img className="java-logo" src={javaLogo} alt="logo of java" />
           </a>
         </div>
