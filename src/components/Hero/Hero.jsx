@@ -3,7 +3,7 @@ import hero1 from '../../assets/image/hero1.png'
 
 function Hero() {
   return (
-    <section style={{ background: `url(${hero1})` }} className="section hero">
+    <section style={{ backgroundImage: `url(${hero1})` }} className="section hero">
       <h1 className='title'>smart city</h1>
       <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. <a href="https://verysmartcity.netlify.app">Read more</a></p>
 
