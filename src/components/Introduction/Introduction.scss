@@ -65,8 +65,9 @@
       flex: 1;
       max-width: 9999px;
 
-      .image__container {
-        width: 52%;
+      img {
+        width: 45%;
+        max-width: 260px;
       }
     }
   }
