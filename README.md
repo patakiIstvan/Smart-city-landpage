@@ -1,6 +1,6 @@
 # Smart City
 
-**website**: [https://verysmartcity.netlify.app/)](https://verysmartcity.netlify.app/)
+**website**: [https://verysmartcity.netlify.app/](https://verysmartcity.netlify.app/)
 
 ## Tehcnolgy
 
