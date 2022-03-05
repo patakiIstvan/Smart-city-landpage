@@ -6,7 +6,7 @@
   }
 
   .container {
-    width: 33%;
+    width: 100%;
     margin-bottom: 75px;
   }
 
@@ -38,8 +38,13 @@
   }
 
   @supports (display: grid) {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container__item {
+      width: 33%;
+    }
   }
 }
