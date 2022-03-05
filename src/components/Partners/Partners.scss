@@ -6,9 +6,7 @@
   }
 
   .container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width: 33%;
     margin-bottom: 75px;
   }
 
@@ -37,5 +35,11 @@
       width: 70%;
       aspect-ratio: 1;
     }
+  }
+
+  @supports (display: grid) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
