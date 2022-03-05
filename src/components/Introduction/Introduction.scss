@@ -60,7 +60,7 @@
   .introduction {
     flex-direction: row;
 
-    .introduction:first-child {
+    .introduction .container:first-child {
       margin-right: 30px;
     }
 
@@ -81,7 +81,7 @@
     gap: 30px;
   }
 
-  .introduction:first-child {
+  .introduction .container:first-child {
     margin-right: 0px;
   }
 }
