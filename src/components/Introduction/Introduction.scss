@@ -59,7 +59,10 @@
 @media screen and (min-width: $lSize) {
   .introduction {
     flex-direction: row;
-    gap: 30px;
+
+    .introduction:first-child {
+      margin-right: 30px;
+    }
 
     .container {
       flex: 1;
@@ -70,5 +73,15 @@
         max-width: 260px;
       }
     }
+  }
+}
+
+@supports (gap: 30px) {
+  .introduction {
+    gap: 30px;
+  }
+
+  .introduction:first-child {
+    margin-right: 0px;
   }
 }
