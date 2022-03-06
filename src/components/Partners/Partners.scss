@@ -23,6 +23,17 @@
     .container {
       height: 162px;
     }
+
+    @supports (display: grid) {
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .container__item {
+        width: 100%;
+      }
+    }
   }
 
   @media screen and (max-width: $sSize) {
@@ -34,18 +45,14 @@
 
     .container__item {
       width: 70%;
-      height: auto;
-    }
-  }
-
-  @supports (display: grid) {
-    .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      height: 200px;
     }
 
-    .container__item {
-      width: 100%;
+    @supports (aspect-ratio: 1) {
+      .container__item {
+        aspect-ratio: 1;
+        height: auto;
+      }
     }
   }
 }
