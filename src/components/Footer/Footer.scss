@@ -146,8 +146,16 @@
         }
       }
     }
+  }
 
-    @supports (gap: 55px) {
+  @media screen and (min-width: $lSize) {
+    .left {
+      margin-right: 126px;
+    }
+  }
+
+  @supports (gap: 55px) {
+    @media screen and (min-width: $mSize) {
       .container {
         gap: 55px;
       }
@@ -156,14 +164,8 @@
         margin-right: 0px;
       }
     }
-  }
 
-  @media screen and (min-width: $lSize) {
-    .left {
-      margin-right: 126px;
-    }
-
-    @supports (gap: 55px) {
+    @media screen and (min-width: $lSize) {
       .container {
         gap: 126px;
       }
@@ -173,4 +175,5 @@
       }
     }
   }
+
 }
