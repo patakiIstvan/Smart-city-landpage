@@ -1,6 +1,9 @@
-# Smart City
+# Smart City BETA
 
-**website**: [https://verysmartcity.netlify.app/](https://verysmartcity.netlify.app/)
+ 
+
+**Browser independent website**: [https://verysmartcitybeta.netlify.app/](https://verysmartcitybeta.netlify.app/)
+**Website**: [https://verysmartcity.netlify.app/)](https://verysmartcity.netlify.app/)
 
 ## Tehcnolgy
 
