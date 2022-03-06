@@ -150,7 +150,7 @@
 
   @media screen and (min-width: $lSize) {
     .left {
-      margin-right: 126px;
+      margin-right: 126px !important;
     }
   }
 
@@ -161,7 +161,7 @@
       }
 
       .left {
-        margin-right: 0px;
+        margin-right: 0px !important;
       }
     }
 
@@ -171,9 +171,14 @@
       }
 
       .left {
-        margin-right: 0px;
+        margin-right: 0px !important;
       }
     }
   }
 
+  @supports not(gap: 3px) {
+    .floating-label {
+      top: -40px;
+    }
+  }
 }
