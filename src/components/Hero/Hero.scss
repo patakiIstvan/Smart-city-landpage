@@ -142,13 +142,3 @@
     opacity: 0;
   }
 }
-
-@supports (gap: 18px) {
-  .page__container {
-    gap: 18px;
-
-    .page__button {
-      margin-right: 0px;
-    }
-  }
-}

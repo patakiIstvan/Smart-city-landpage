@@ -60,7 +60,7 @@
   .introduction {
     flex-direction: row;
 
-    .introduction .container:first-child {
+    div.container:first-of-type {
       margin-right: 30px;
     }
 
@@ -74,14 +74,14 @@
       }
     }
   }
-}
 
-@supports (gap: 30px) {
-  .introduction {
-    gap: 30px;
-  }
+  @supports (gap: 30px) {
+    .introduction {
+      gap: 30px;
 
-  .introduction .container:first-child {
-    margin-right: 0px;
+      div.container:first-of-type {
+        margin-right: 0px;
+      }
+    }
   }
 }
