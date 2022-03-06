@@ -7,7 +7,9 @@ function Hero() {
   return (
     <section className="hero">
       <div style={{ backgroundImage: `url(${hero1})` }} className="slider1 slider section">
-        <h1 className='title'>smart city</h1>
+        <div className="title__container">
+          <h1 className='title'>smart city</h1>
+        </div>
         <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. <br /><a href="https://verysmartcity.netlify.app">Read more</a></p>
 
         <div className="page__container">
@@ -17,7 +19,9 @@ function Hero() {
         </div>
       </div>
       <div style={{ backgroundImage: `url(${hero2})` }} className="slider2 slider section">
-        <h1 className='title'>smart developers</h1>
+        <div className="title__container">
+          <h1 className='title'>smart developers</h1>
+        </div>
         <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. <br /><a href="https://verysmartcity.netlify.app">Read more</a></p>
 
         <div className="page__container">
@@ -27,7 +31,9 @@ function Hero() {
         </div>
       </div >
       <div style={{ backgroundImage: `url(${hero3})` }} className="slider3 slider section">
-        <h1 className='title'>truthly inspiring</h1>
+        <div className="title__container">
+          <h1 className='title'>truthly inspiring</h1>
+        </div>
         <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. <br /><a href="https://verysmartcity.netlify.app">Read more</a></p>
 
         <div className="page__container">
