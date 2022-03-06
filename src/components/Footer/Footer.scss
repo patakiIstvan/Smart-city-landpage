@@ -82,7 +82,7 @@
     pointer-events: none;
     padding: 16px 18px 12px;
     left: 0;
-    top: 0px;
+    top: -40px;
     transition: 0.2s ease all;
   }
 
@@ -148,6 +148,8 @@
     }
   }
 
+
+
   @media screen and (min-width: $lSize) {
     .left {
       margin-right: 126px !important;
@@ -176,9 +178,9 @@
     }
   }
 
-  @supports not(gap: 3px) {
+  @supports (gap: 3px) {
     .floating-label {
-      top: -40px;
+      top: 0px;
     }
   }
 }
