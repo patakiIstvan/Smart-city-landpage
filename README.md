@@ -4,7 +4,7 @@
 
 **Browser independent website**: [https://verysmartcitybeta.netlify.app/](https://verysmartcitybeta.netlify.app/)
 
-**Website**: [https://verysmartcity.netlify.app/)](https://verysmartcity.netlify.app/)
+**Website**: [https://verysmartcity.netlify.app/](https://verysmartcity.netlify.app/)
 
 ## Tehcnolgy
 
